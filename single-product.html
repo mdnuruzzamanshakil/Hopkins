@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Naba Trader - A Modern Barber</title>
+
+    <!--== Favicon ==-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <!--== Google Fonts ==-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400,400i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+    <!-- build:css assets/css/app.min.css -->
+    <!--== Leaflet Min CSS ==-->
+    <link href="assets/css/leaflet.min.css" rel="stylesheet" />
+    <!--== Nice Select Min CSS ==-->
+    <link href="assets/css/nice-select.min.css" rel="stylesheet" />
+    <!--== YTPlayer Min CSS ==-->
+    <link href="assets/css/jquery.mb.YTPlayer.min.css" rel="stylesheet" />
+    <!--== LightSlider Min CSS ==-->
+    <link href="assets/css/lightslider.min.css" rel="stylesheet" />
+    <!--== Magnific Popup Min CSS ==-->
+    <link href="assets/css/magnific-popup.min.css" rel="stylesheet" />
+    <!--== Slicknav Min CSS ==-->
+    <link href="assets/css/slicknav.min.css" rel="stylesheet" />
+    <!--== Animate Min CSS ==-->
+    <link href="assets/css/animate.min.css" rel="stylesheet" />
+    <!--== Ionicons Min CSS ==-->
+    <link href="assets/css/ionicons.min.css" rel="stylesheet" />
+    <!--== Font-Awesome Min CSS ==-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--== Bootstrap Min CSS ==-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--== Main Style CSS ==-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!--== Helper Min CSS ==-->
+    <link href="assets/css/helper.min.css" rel="stylesheet" />
+    <!-- endbuild -->
+
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!--== Start Header Area ==-->
+    <div class="header-top-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="header-top-text-content">
+                        <p>5 FREE TREATS + SHIPPING WITH $40 ORDERS.*CODE: BBPAIR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header-area">
+        <!-- Start Header Config Area -->
+        <div class="header-config-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-6 d-none d-md-block">
+                        <div class="header-config-content">
+                            <ul class="config-nav nav">
+                                <li class="config-item"><a href="#">My Accounts</a>
+                                    <ul class="config-option">
+                                        <li><a href="#">Edit Profile</a></li>
+                                        <li><a href="#">Change Password</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="config-item"><a href="#">Language: English</a>
+                                    <ul class="config-option">
+                                        <li><a href="#">Language: Bengali</a></li>
+                                        <li><a href="#">Language: Hindi</a></li>
+                                        <li><a href="#">Language: Urdu</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="config-item"><a href="#">Currency: USD</a>
+                                    <ul class="config-option">
+                                        <li><a href="#">Currency: AUD</a></li>
+                                        <li><a href="#">Currency: BDT</a></li>
+                                        <li><a href="#">Currency: CAD</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-lg-6">
+                        <div class="header-config-buttons">
+                            <ul class="media-icons nav">
+                                <li class="btn-cart"><a href="cart.html"><i class="ion-bag"></i> <span>Shopping Cart:</span>
+                                        <strong
+                                        class="amount">$0.00</strong></a></li>
+                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                <li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+                                <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                                <li><a href="#"><i class="ion-social-vimeo"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Config Area -->
+
+        <!-- Start Header Navigation Area -->
+        <div class="header-nav-area">
+            <div class="container">
+                <div class="row align-items-center position-relative">
+                    <div class="col-8 col-lg-2 col-xl-3">
+                        <!-- Start Logo Wrapper -->
+                        <div class="logo-wrap">
+                            <a href="index.html"><img style="width:135px ;height: 20px;" src="assets/img/3.png" alt="Logo" /></a>
+                        </div>
+                        <!-- End Logo Wrapper -->
+                    </div>
+
+                    <div class="col-lg-9 position-static col-xl-8 d-none d-lg-block">
+                        <!-- Start Site Navigation -->
+                        <nav class="site-navigation">
+                            <ul class="main-nav nav">
+                                <li class="has-submenu active"><a href="index.html">Home</a>
+                                    <ul class="submenu-nav">
+                                        <li><a href="index.html">Homepage 01</a></li>
+                                        <li><a href="index-2.html">Homepage 02</a></li>
+                                        <li><a href="index-3.html">Homepage 03</a></li>
+                                        <li><a href="index-4.html">Homepage 04</a></li>
+                                        <li><a href="index-5.html">Homepage 05</a></li>
+                                        <li><a href="index-6.html">Homepage 06</a></li>
+                                        <li><a href="index-7.html">Homepage 07</a></li>
+                                        <li><a href="index-8.html">Homepage 08</a></li>
+                                        <li><a href="index-9.html">Homepage 09</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu full-width"><a href="#">Features</a>
+                                    <ul class="submenu-nav submenu-nav--mega">
+                                        <li class="mega-item" id="d-none"><a href="#">Feature List 00</a>
+                                            <div class="mega-thumb">
+                                                <img src="assets/img/extra/megamenu.jpg" alt="Mega" />
+                                            </div>
+                                        </li>
+
+                                        <li class="mega-item"><a href="#">Feature List 01</a>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-cubes"></i>Flexible Elements</a></li>
+                                                <li><a href="#"><i class="fa fa-image"></i>LightSlider</a></li>
+                                                <li><a href="#"><i class="fa fa-th-large"></i>Essential Grid</a></li>
+                                                <li><a href="#"><i class="fa fa-puzzle-piece"></i>Templatera</a></li>
+                                                <li><a href="#"><i class="fa fa-rocket"></i>Blazing Fast Loading Speed</a>
+                                                </li>
+                                                <li><a href="#"><i class="fa fa-hand-o-up"></i>Easy Customization</a></li>
+                                                <li><a href="#"><i class="fa fa-laptop"></i>Live Customizer</a></li>
+                                                <li><a href="#"><i class="fa fa-magic"></i>Unlimited Colors</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="mega-item"><a href="#">Feature List 02</a>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-html5"></i>Bootstrap 4.x Based</a></li>
+                                                <li><a href="#"><i class="fa fa-desktop"></i>Responsive & Retina</a></li>
+                                                <li><a href="#"><i class="fa fa-minus"></i>Sticky Header</a></li>
+                                                <li><a href="#"><i class="fa fa-css3"></i>Smooth CSS3 Animation</a></li>
+                                                <li><a href="#"><i class="fa fa-sort"></i>Parallax Sections</a></li>
+                                                <li><a href="#"><i class="fa fa-google"></i>Google Fonts</a></li>
+                                                <li><a href="#"><i class="fa fa-language"></i>Mailchimp Supported</a></li>
+                                                <li><a href="#"><i class="fa fa-font-awesome"></i>Font Awesome Icons</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="mega-item"><a href="#">Feature List 03</a>
+                                            <ul>
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i>eCommerce Compatible</a>
+                                                </li>
+                                                <li><a href="#"><i class="fa fa-table"></i>Dynamic Contact Form</a></li>
+                                                <li><a href="#"><i class="fa fa-home"></i>6+ Homepage Options</a></li>
+                                                <li><a href="#"><i class="fa fa-minus"></i>6+ Header Styles</a></li>
+                                                <li><a href="#"><i class="fa fa-columns"></i>3+ Portfolio Styles</a></li>
+                                                <li><a href="#"><i class="fa fa-newspaper-o"></i>2+ Blog Styles</a></li>
+                                                <li><a href="#"><i class="fa fa-user-secret"></i>2+ Our Team Styles</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu"><a href="#">Who Area We</a>
+                                    <ul class="submenu-nav">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="about-me.html">About Me</a></li>
+                                        <li><a href="team.html">Our Team</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="service.html">Services</a></li>
+                                <li class="has-submenu"><a href="#">Portfolio</a>
+                                    <ul class="submenu-nav">
+                                        <li><a href="portfolio-2-columns.html">Portfolio 2 Columns</a></li>
+                                        <li><a href="portfolio.html">Portfolio 3 Columns</a></li>
+                                        <li><a href="portfolio-4-columns.html">Portfolio 4 Columns</a></li>
+                                        <li><a href="portfolio-details.html">Single Portfolio</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu"><a href="shop.html">Shop</a>
+                                    <ul class="submenu-nav">
+                                        <li><a href="shop.html">Product Page</a></li>
+                                        <li><a href="single-product.html">Product Details</a></li>
+                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-submenu"><a href="blog.html">Blog</a>
+                                    <ul class="submenu-nav">
+                                        <li><a href="blog-list.html">Blog List Style</a></li>
+                                        <li><a href="blog.html">Blog Grid Style</a></li>
+                                        <li><a href="blog-details.html">Blog Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <!-- End Site Navigation -->
+                    </div>
+
+                    <div class="col-4 col-lg-1">
+                        <!-- Start Search Box Area -->
+                        <div class="search-box-wrap">
+                            <ul class="search-box-inner nav">
+                                <li>
+                                    <a href="#" class="btn-search">
+                                        <i class="ion-search"></i>
+                                        <i class="ion-close"></i>
+                                    </a>
+                                    <div class="header-search-box">
+                                        <form action="#">
+                                            <div class="search-box-content">
+                                                <label for="search" class="sr-only"></label>
+                                                <input type="search" id="search" placeholder="type here and hit enter" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+                                <li class="d-lg-none"><a href="javascript:void(0)" class="btn-menu"><i
+                                    class="ion-navicon"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- End Search Box Area -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Navigation Area -->
+    </header>
+    <!--== End Header Area ==-->
+
+    <!--== Start Page Header Area ==-->
+    <div class="page-header-wrap">
+        <div class="page-tittle-wrap bg-img" data-bg="assets/img/extra/page-header.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="page-tittle-content">
+                            <div class="page-tittle-inner">
+                                <h2>Anti Humidity Hair Spray</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-breadcrumb-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Page Header Area ==-->
+
+    <!--== Start Single Products Page Wrapper ==-->
+    <div class="product-details-page-wrapper sp-y">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 order-1 order-lg-0">
+                    <!--== Start Sidebar Area ==-->
+                    <div class="sidebar-wrapper shop-page">
+                        <!--** Start Sidebar Item **-->
+                        <div class="sidebar-item">
+                            <h4 class="sidebar-title">Search Product</h4>
+                            <div class="sidebar-body">
+                                <div class="sidebar-search-box">
+                                    <form action="#" method="post">
+                                        <div class="form-input-item">
+                                            <label for="search" class="sr-only">search</label>
+                                            <input type="text" id="search" placeholder="Search Products...">
+                                            <button type="submit" class="sr-only btn-src"><i class="ion-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--** End Sidebar Item **-->
+
+                        <!--** Start Sidebar Item **-->
+                        <div class="sidebar-item">
+                            <h4 class="sidebar-title">New Products</h4>
+                            <div class="sidebar-body">
+                                <div class="top-rated-product">
+                                    <div class="top-rated-prod-item">
+                                        <div class="prod-thumb">
+                                            <a href="single-product.html"><img src="assets/img/product/01.jpg" alt="Product" /></a>
+                                        </div>
+
+                                        <div class="prod-info">
+                                            <h3><a href="single-product.html">Wool Shoe</a></h3>
+                                            <div class="prod-meta">
+                                                <div class="rating">
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                                <div class="price-group">
+                                                    <del class="price-old">$39.23</del>
+                                                    <span class="price">$19.53</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="top-rated-prod-item">
+                                        <div class="prod-thumb">
+                                            <a href="single-product.html"><img src="assets/img/product/02.jpg" alt="Product" /></a>
+                                        </div>
+
+                                        <div class="prod-info">
+                                            <h3><a href="single-product.html">Leather Shoes</a></h3>
+                                            <div class="prod-meta">
+                                                <div class="rating">
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                                <div class="price-group">
+                                                    <del class="price-old">$39.23</del>
+                                                    <span class="price">$19.53</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="top-rated-prod-item">
+                                        <div class="prod-thumb">
+                                            <a href="single-product.html"><img src="assets/img/product/03.jpg" alt="Product" /></a>
+                                        </div>
+
+                                        <div class="prod-info">
+                                            <h3><a href="single-product.html">Red Shoe</a></h3>
+                                            <div class="prod-meta">
+                                                <div class="rating">
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                                <div class="price-group">
+                                                    <del class="price-old">$29.23</del>
+                                                    <span class="price">$14.33</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--** End Sidebar Item **-->
+
+                        <!--** Start Sidebar Item **-->
+                        <div class="sidebar-item">
+                            <h4 class="sidebar-title">Categories</h4>
+                            <div class="sidebar-body">
+                                <ul class="sidebar-list">
+                                    <li><a href="#">Accessories (10)</a></li>
+                                    <li><a href="#">Bags (8)</a></li>
+                                    <li><a href="#">Women (9)</a></li>
+                                    <li><a href="#">Men (2)</a></li>
+                                    <li><a href="#">Life Style (3)</a></li>
+                                    <li><a href="#">Music (1)</a></li>
+                                    <li><a href="#">Photography (5)</a></li>
+                                    <li><a href="#">Travel (3)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--** End Sidebar Item **-->
+
+                        <!--** Start Sidebar Item **-->
+                        <div class="sidebar-item">
+                            <h4 class="sidebar-title">Tags</h4>
+                            <div class="sidebar-body">
+                                <ul class="tags">
+                                    <li><a href="#">Beautiful</a></li>
+                                    <li><a href="#">Flower</a></li>
+                                    <li><a href="#">Night</a></li>
+                                    <li><a href="#">January</a></li>
+                                    <li><a href="#">Arden</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--** End Sidebar Item **-->
+                    </div>
+                </div>
+
+                <div class="col-lg-9 order-0 order-lg-1">
+                    <div class="row">
+                        <!-- Start Product Thumbnail Area -->
+                        <div class="col-md-5 col-lg-6">
+                            <div class="product-thumb-area">
+                                <div class="product-details-thumb-slider">
+                                    <figure class="port-details-thumb-item" data-thumb="assets/img/product/prod-details-1.jpg">
+                                        <img src="assets/img/product/prod-details-1.jpg" alt="Product Details" />
+                                    </figure>
+                                    <figure class="port-details-thumb-item" data-thumb="assets/img/product/prod-details-2.jpg">
+                                        <img src="assets/img/product/prod-details-2.jpg" alt="Product Details" />
+                                    </figure>
+                                    <figure class="port-details-thumb-item" data-thumb="assets/img/product/prod-details-3.jpg">
+                                        <img src="assets/img/product/prod-details-3.jpg" alt="Product Details" />
+                                    </figure>
+                                    <figure class="port-details-thumb-item" data-thumb="assets/img/product/prod-details-4.jpg">
+                                        <img src="assets/img/product/prod-details-4.jpg" alt="Product Details" />
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Thumbnail Area -->
+
+                        <!-- Start Product Info Area -->
+                        <div class="col-md-7 col-lg-6">
+                            <div class="product-details-info-content-wrap">
+                                <div class="prod-details-info-content">
+                                    <h2 class="h4">Anti-Humidty Hair Spray</h2>
+                                    <div class="price-group">
+                                        <del class="old-price">$99.00</del>
+                                        <span class="price">$69.99</span>
+                                    </div>
+                                    <p>If you’ve ever missed a shot because your phone just didn’t focus fast enough, or
+                                        your
+                                        pictures are coming out blurry with your point-and-shoot model, step up to faster
+                                        autofocus, more features, and higher quality results with a digital SLR camera, or
+                                        DSLR,
+                                        from Best Buy.</p>
+
+                                    <div class="product-config mt-30">
+                                        <!-- Start Color Choose Option -->
+                                        <div class="config-item">
+                                            <h5 class="config-name">Color: <b>Black</b></h5>
+                                            <ul class="config-list nav">
+                                                <li class="active"><img src="assets/img/color/black.jpg" alt="Black"></li>
+                                                <li><img src="assets/img/color/yellow.jpg" alt="Yellow"></li>
+                                            </ul>
+                                        </div>
+                                        <!-- End Color Choose Option -->
+
+                                        <!-- Start Size Select Option -->
+                                        <div class="config-item">
+                                            <h5 class="config-name">Size: <b>Small</b></h5>
+                                            <ul class="config-list nav">
+                                                <li class="active"><span>S</span></li>
+                                                <li><span>M</span></li>
+                                                <li><span>L</span></li>
+                                                <li><span>XL</span></li>
+                                            </ul>
+                                        </div>
+                                        <!-- End Size Select Option -->
+                                    </div>
+
+                                    <div class="product-action mt-30">
+                                        <div class="action-top d-sm-flex">
+                                            <div class="pro-qty mr-3 mb-30 mb-sm-0">
+                                                <label for="quantity" class="sr-only">Quantity</label>
+                                                <input type="text" id="quantity" title="Quantity" value="1" />
+                                            </div>
+                                            <button class="btn btn-hvr-brand">Add to Cart</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-details-footer mt-30">
+                                        <div class="prod-details-footer__item">
+                                            <div class="footer-item-left">
+                                                <h5 class="item-head"><i class="fa fa-tags"></i> Categories:</h5>
+                                            </div>
+                                            <div class="footer-item-right">
+                                                <ul class="cate-list nav">
+                                                    <li><a href="#">Design</a></li>
+                                                    <li><a href="#">Interior</a></li>
+                                                    <li><a href="#">Multi</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="prod-details-footer__item">
+                                            <div class="footer-item-left">
+                                                <h5 class="item-head"><i class="fa fa-share-alt"></i> Share:</h5>
+                                            </div>
+
+                                            <div class="footer-item-right">
+                                                <div class="share-item">
+                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Product Info Area -->
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="product-description-review mt-60">
+                                <!-- Product Description Tab Menu -->
+                                <ul class="nav nav-tabs desc-review-tab-menu" id="desc-review-tab" role="tablist">
+                                    <li>
+                                        <a class="active" id="desc-tab" data-bs-toggle="tab" href="#descriptionContent" role="tab">Description</a>
+                                    </li>
+                                    <li>
+                                        <a id="profile-tab" data-bs-toggle="tab" href="#reviewContent">Review (3)</a>
+                                    </li>
+                                </ul>
+
+                                <!-- Product Description Tab Content -->
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="descriptionContent">
+                                        <div class="description-content">
+                                            <p>Created from either wood or recycled materials, it can be moulded
+                                                into just about any shape and hardens to provide a hard shell. Additives can
+                                                make it water resistant and it can be produced in a rainbow of colours.
+                                                Other materials being looked at include paper clay, paper glue, paper cotton
+                                                and even washable paper.</p>
+
+                                            <p>Additives can make it water resistant and it can be produced in a rainbow of
+                                                colours. Other materials being looked at include paper clay Lorem ipsum
+                                                dolor
+                                                sit amet, consectetur adipisicing elit. Eaque, facere!</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="reviewContent">
+                                        <div class="product-rating-wrap">
+                                            <div class="pro-avg-rating">
+                                                <h4>4.5 <span>(Overall)</span></h4>
+                                                <span>Based on 9 Comments</span>
+                                            </div>
+                                            <div class="ratings-wrapper">
+                                                <div class="sin-ratings">
+                                                    <div class="rating-author">
+                                                        <h3>Cristopher Lee</h3>
+                                                        <div class="rating-star">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <span>(5)</span>
+                                                        </div>
+                                                    </div>
+                                                    <p>enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                        fugit,
+                                                        sed quia res eos qui ratione voluptatem sequi Neque porro quisquam
+                                                        est,
+                                                        qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                                        veli</p>
+                                                </div>
+
+                                                <div class="sin-ratings">
+                                                    <div class="rating-author">
+                                                        <h3>Nirob Khan</h3>
+                                                        <div class="rating-star">
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <i class="fa fa-star"></i>
+                                                            <span>(5)</span>
+                                                        </div>
+                                                    </div>
+                                                    <p>enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                                                        fugit,
+                                                        sed quia res eos qui ratione voluptatem sequi Neque porro quisquam
+                                                        est,
+                                                        qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                                                        veli</p>
+                                                </div>
+                                            </div>
+                                            <div class="rating-form-wrapper">
+                                                <h3>Add your Reviews</h3>
+                                                <form action="#" method="post">
+                                                    <div class="rating-form row">
+                                                        <div class="col-12">
+                                                            <h5>Rating:</h5>
+                                                            <div class="rating-star fix">
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-input-item mt-md-3">
+                                                                <label for="name" class="sr-only">Name</label>
+                                                                <input type="text" id="name" placeholder="Name" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-6">
+                                                            <div class="form-input-item mt-md-3">
+                                                                <label for="email" class="sr-only">Email</label>
+                                                                <input type="email" id="email" placeholder="Email" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="form-input-item mb-40">
+                                                                <label for="your-review" class="sr-only">review</label>
+                                                                <textarea name="review" id="your-review" placeholder="Write a review"></textarea>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 mt-22">
+                                                            <button class="btn btn-hvr-brand">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Single Products Page Wrapper ==-->
+
+    <!--== Start Footer Area ==-->
+    <footer class="footer-area bg-img" data-bg="assets/img/extra/footer_bg.png">
+        <div class="footer-widget-area">
+            <div class="container">
+                <div class="row mtn-40">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="widget-item">
+                            <h4 class="widget-title">About Us</h4>
+                            <div class="widget-body">
+                                <p>Hopkins was founded in 2015 with the mission of providing hair care services with a
+                                    professional but casual atmosphere.</p>
+
+                                <div class="social-icons mt-20">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Keep in touch</h4>
+                            <div class="widget-body">
+                                <div class="keepintouch">
+                                    <p><i class="ion-android-call"></i>+880 1800 000 000</p>
+                                    <p><i class="ion-email"></i><a href="mailto:info@nabatrader.com">info@nabatrader.com</a></p>
+                                    <p><i class="ion-map"></i>Pabna, Bangladesh</p>
+                                    <p><i class="ion-printer"></i>+880 1800 111 111</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Customer Care</h4>
+                            <div class="widget-body">
+                                <ul class="widget-list">
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Delivery Information</a></li>
+                                    <li><a href="#">Returns Policy</a></li>
+                                    <li><a href="#">Privacy & Security</a></li>
+                                    <li><a href="#">Work With Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="widget-item">
+                            <h4 class="widget-title">Working hours</h4>
+                            <div class="widget-body">
+                                <div class="working-hours">
+                                    <strong>Mon – Tue:</strong> 10:00 AM – 8:00 PM<br>
+                                    <strong>Wed – Fri:</strong> 10:00 AM – 7:00 PM<br>
+                                    <strong>Saturday:</strong> 12:00 - 17:30<br>
+                                    <hr>
+                                    <strong>Sunday:</strong> CLOSED
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="copyright-content">
+                            <p class="mb-0"> © 2026, Naba Trader. Developed by <i class="fa fa-heart text-danger"></i> by <a href="#">MNS</a> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--== End Footer Area ==-->
+
+    <!-- Scroll Top Button -->
+    <button class="btn-scroll-top"><i class="ion-chevron-up"></i></button>
+
+    <!--== Start Quick View Modal ==-->
+    <div class="modal fade" id="quickViewModal" tabindex="-1">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Start Product Thumbnail Area -->
+                            <div class="col-md-6">
+                                <div class="product-thumb-area">
+                                    <div class="product-details-thumb-slider">
+                                        <figure class="port-details-thumb-item" data-thumb="assets/img/product/prod-details-1.jpg">
+                                            <img src="assets/img/product/prod-details-1.jpg" alt="Product Details" />
+                                        </figure>
+                                        <figure class="port-details-thumb-item" data-thumb="assets/img/product/prod-details-2.jpg">
+                                            <img src="assets/img/product/prod-details-2.jpg" alt="Product Details" />
+                                        </figure>
+                                        <figure class="port-details-thumb-item" data-thumb="assets/img/product/prod-details-3.jpg">
+                                            <img src="assets/img/product/prod-details-3.jpg" alt="Product Details" />
+                                        </figure>
+                                        <figure class="port-details-thumb-item" data-thumb="assets/img/product/prod-details-4.jpg">
+                                            <img src="assets/img/product/prod-details-4.jpg" alt="Product Details" />
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Thumbnail Area -->
+
+                            <!-- Start Product Info Area -->
+                            <div class="col-md-6">
+                                <div class="product-details-info-content-wrap">
+                                    <div class="prod-details-info-content">
+                                        <h2 class="h4">Anti-Humidty Hair Spray</h2>
+                                        <div class="price-group">
+                                            <del class="old-price">$99.00</del>
+                                            <span class="price">$69.99</span>
+                                        </div>
+                                        <p>If you’ve ever missed a shot because your phone just didn’t focus fast enough, or your pictures are coming out blurry with your point-and-shoot model, step up to faster
+                                            autofocus, more features, and higher quality results with a digital SLR camera, or DSLR, from Best Buy.</p>
+
+                                        <div class="product-config mt-30">
+                                            <!-- Start Color Choose Option -->
+                                            <div class="config-item">
+                                                <h5 class="config-name">Color: <b>Black</b></h5>
+                                                <ul class="config-list nav">
+                                                    <li class="active"><img src="assets/img/color/black.jpg" alt="Black">
+                                                    </li>
+                                                    <li><img src="assets/img/color/yellow.jpg" alt="Yellow"></li>
+                                                </ul>
+                                            </div>
+                                            <!-- End Color Choose Option -->
+
+                                            <!-- Start Size Select Option -->
+                                            <div class="config-item">
+                                                <h5 class="config-name">Size: <b>Small</b></h5>
+                                                <ul class="config-list nav">
+                                                    <li class="active"><span>S</span></li>
+                                                    <li><span>M</span></li>
+                                                    <li><span>L</span></li>
+                                                    <li><span>XL</span></li>
+                                                </ul>
+                                            </div>
+                                            <!-- End Size Select Option -->
+                                        </div>
+
+                                        <div class="product-action mt-30">
+                                            <div class="action-top d-sm-flex">
+                                                <div class="pro-qty mr-3 mb-30 mb-sm-0">
+                                                    <label for="quantity" class="sr-only">Quantity</label>
+                                                    <input type="text" id="quantity" title="Quantity" value="1" />
+                                                </div>
+                                                <button class="btn btn-hvr-brand">Add Cart</button>
+                                            </div>
+                                        </div>
+
+                                        <div class="prod-details-footer mt-30">
+                                            <div class="prod-details-footer__item">
+                                                <div class="footer-item-left">
+                                                    <h5 class="item-head"><i class="fa fa-tags"></i> Categories:</h5>
+                                                </div>
+                                                <div class="footer-item-right">
+                                                    <ul class="cate-list nav">
+                                                        <li><a href="#">Design</a></li>
+                                                        <li><a href="#">Interior</a></li>
+                                                        <li><a href="#">Multi</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="prod-details-footer__item">
+                                                <div class="footer-item-left">
+                                                    <h5 class="item-head"><i class="fa fa-share-alt"></i> Share:</h5>
+                                                </div>
+
+                                                <div class="footer-item-right">
+                                                    <div class="share-item">
+                                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Product Info Area -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--== End Quick View Modal ==-->
+
+    <!-- Start Responsive Menu Wrapper -->
+    <aside class="off-canvas-wrapper off-canvas-menu">
+        <div class="off-canvas-overlay"></div>
+        <div class="off-canvas-inner">
+            <!-- Start Off Canvas Content -->
+            <div class="off-canvas-content">
+                <div class="off-canvas-header">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/2.png" alt="Logo"></a>
+                    </div>
+                    <div class="close-btn">
+                        <button class="btn-close"><i class="ion-close"></i></button>
+                    </div>
+                </div>
+
+                <div class="res-mobile-menu mobile-menu">
+
+                </div>
+
+                <div class="mobile-menu res-site-config">
+
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- End Responsive Menu Wrapper -->
+
+    <!--=======================Javascript============================-->
+    <!-- build:js assets/js/app.min.js -->
+    <!--=== Modernizr Min Js ===-->
+    <script src="assets/js/modernizr.min.js"></script>
+    <!--=== jQuery Min Js ===-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!--=== jQuery Migration Min Js ===-->
+    <script src="assets/js/jquery-migrate.min.js"></script> 
+    <!--=== Bootstrap Min Js ===-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--=== Slicknav Min Js ===-->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <!--=== Magnific Popup Min Js ===-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--=== LightSlider Min Js ===-->
+    <script src="assets/js/lightslider.min.js"></script>
+    <!--=== Masonry Min Js ===-->
+    <script src="assets/js/masonry.pkgd.min.js"></script>
+    <!--=== YTPlayer Min Js ===-->
+    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+    <!--=== jQuery Appear Js ===-->
+    <script src="assets/js/jquery.appear.js"></script>
+    <!--=== Isotope Min Js ===-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--=== Nice Select Min Js ===-->
+    <script src="assets/js/jQuery.nice-select.min.js"></script>
+    <!--=== Leaflet Min Js ===-->
+    <script src="assets/js/leaflet.min.js"></script>
+
+    <!--=== Active Js ===-->
+    <script src="assets/js/active.js"></script>
+
+    <!-- endbuild -->
+
+</body>
+
+</html>
